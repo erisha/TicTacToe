@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-size: 100 px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+text-align: center; 
+color: chartreuse;
+}
+
+
+
+.board {
+    display: grid;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    grid-template-columns: repeat(3, auto)
+}
+
+
+
+.square {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    
+}
+
+.reset {
+    background-color: chartreuse;
+    color: royalblue;
+    cursor: pointer;
+    
+}
+
+.letsPlay {
+    background-color: chartreuse;
+    color: royalblue;
+    cursor: pointer;
+   
+}
+
+.gameOver {
+    display: none;
+    background-color: black;
+    color: chartreuse;
+    position: absolute;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    border: 50px;
+    border-color: chartreuse;
+}
