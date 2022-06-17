@@ -62,3 +62,9 @@ color: chartreuse;
     border: 50px;
     border-color: chartreuse;
 }
+
+
+.square:hover {
+    background-color: chartreuse;
+    opacity: 50%;
+  }
