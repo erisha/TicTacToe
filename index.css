@@ -4,16 +4,21 @@ body {
     background-color: black;
     font-size: 100 px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    text-align: center;
+    color: antiquewhite;
 }
 
 h1 {
 text-align: center; 
 color: chartreuse;
+font-size: 30px;
+
 }
 
 
 
-.board {
+.gameBoard {
     display: grid;
     justify-content: center;
     width: 100vw;
@@ -34,6 +39,8 @@ color: chartreuse;
     text-align: center;
     display: flex;
     cursor: pointer;
+    color: antiquewhite;
+    justify-content: center;
     
 }
 
@@ -44,12 +51,12 @@ color: chartreuse;
     
 }
 
-.letsPlay {
+/* .letsPlay {
     background-color: chartreuse;
     color: royalblue;
     cursor: pointer;
    
-}
+} */
 
 .gameOver {
     display: none;
@@ -62,3 +69,9 @@ color: chartreuse;
     border: 50px;
     border-color: chartreuse;
 }
+
+
+.square:hover {
+    background-color: chartreuse;
+    opacity: 50%;
+  }

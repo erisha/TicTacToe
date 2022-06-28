@@ -10,26 +10,22 @@
 </head>
 <body>
 
-    <h1>Risha's Tic Tac Toe</h1>
-<br>
+    <h1 class="gameTitle">Risha's Tic Tac Toe</h1>
 
-
-    <div class="board" id="board">
-        <div class = "square" id="squareOne"></div>
-        <div class = "square" id="squareTwo"></div>
-        <div class = "square" id="squareThree"></div>
-        <div class = "square" id="squareFour"></div>
-        <div class = "square" id="squareFive"></div>
-        <div class = "square" id="squareSix"></div>
-        <div class = "square" id="squareSeven"></div>
-        <div class = "square" id="squareEight"></div>
-        <div class = "square" id="squareNine"></div>
+    <div class="gameBoard" id="gameBoard">
+        <div data-cell-index="0" class = "square"></div>
+        <div data-cell-index="1" class = "square"></div>
+        <div data-cell-index="2" class = "square"></div>
+        <div data-cell-index="3" class = "square"></div>
+        <div data-cell-index="4" class = "square"></div>
+        <div data-cell-index="5" class = "square"></div>
+        <div data-cell-index="6" class = "square"></div>
+        <div data-cell-index="7" class = "square"></div>
+        <div data-cell-index="8" class = "square"></div>
+    </div>
         
-<div class="winner" id="winner"></div>
-
-<div class="gameOver"></div>
-
-<button onclick="newGame" id="reset" class="reset">LET'S PLAY !</button>
+<button id="reset" class="reset">New Game</button>
+<h2 class="playerTurn"></h2>
 
     
 </body>
