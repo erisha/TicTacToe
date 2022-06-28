@@ -4,18 +4,25 @@ body {
     background-color: black;
     font-size: 100 px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    text-align: center;
+    color: antiquewhite;
 }
 
 h1 {
 text-align: center; 
 color: chartreuse;
+<<<<<<< HEAD
 font-size: 50px;
+=======
+font-size: 30px;
+>>>>>>> main
 
 }
 
 
 
-.board {
+.gameBoard {
     display: grid;
     justify-content: center;
     width: 100vw;
@@ -36,6 +43,8 @@ font-size: 50px;
     text-align: center;
     display: flex;
     cursor: pointer;
+    color: antiquewhite;
+    justify-content: center;
     
 }
 
@@ -46,12 +55,12 @@ font-size: 50px;
     
 }
 
-.letsPlay {
+/* .letsPlay {
     background-color: chartreuse;
     color: royalblue;
     cursor: pointer;
    
-}
+} */
 
 .gameOver {
     display: none;
